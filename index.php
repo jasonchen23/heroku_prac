@@ -1,8 +1,8 @@
 <?php
-require_once("../db_connect.php");
-$sql="SELECT * FROM products WHERE valid=1 ORDER BY name ASC";
-$result = $conn->query($sql);
-$products=$result->fetch_all(MYSQLI_ASSOC);
+// require_once("../db_connect.php");
+// $sql="SELECT * FROM products WHERE valid=1 ORDER BY name ASC";
+// $result = $conn->query($sql);
+// $products=$result->fetch_all(MYSQLI_ASSOC);
 
 ?>
 
